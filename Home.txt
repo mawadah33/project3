@@ -41,7 +41,7 @@
 
     <body>
         <h2> Group Member Information: </h2>
-        <p style="font-family:verdana; font-size:160%;"> Section 667</p>
+        <p style="font-family:verdana; font-size:160%;"> Section 431</p>
         <ul id="list">
             <li> Tahani eid alatawi <br>431002244</li>
             <li>Mwadah nashmi alrashidi <br>431000711</li>
