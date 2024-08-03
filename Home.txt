@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Member</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <head>
+        <title>ZAS</title>
+        <style>
+            body {
+                text-align: center;
+            }
+            
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+            
+            li {
+                margin: 10px 10px;
+                border-bottom-style: dotted;
+            }
+        </style>
+    </head>
+    <div class="topnav" id="myTopnav">
+        <a class="active" href="Home.html">Home</a>
+        <a href="Color_blindness.html">Blindness</a>
+        <a href="Types_of_color.html">Color Type</a>
+        <a href="Symptoms.html">Symptoms</a>
+        <a href="Contact.html">Contact</a>
+        <a href="Group_Member_Information.html">About</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <body>
+        <h2> Group Member Information: </h2>
+        <p style="font-family:verdana; font-size:160%;"> Section 667</p>
+        <ul id="list">
+            <li> Tahani eid alatawi <br>431002244</li>
+            <li>Mwadah nashmi alrashidi <br>431000711</li>
+            <li>Ninar mousa Alharbi <br> 431000969</li>
+          <li> Rehab Nafie Al-Huwaiti <br>431001250</li>
+            <li> Khadejh Olayan Alatawi <br>431999244</li>
+        </ul>
+
+
+        <script src="script.js"></script>
+
+    </body>
+
+</html>

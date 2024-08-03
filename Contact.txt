@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #myVideo {
+            width: 100%;
+            height: 350px;
+        }
+    </style>
+</head>
+<div class="topnav" id="myTopnav">
+    <a  href="Home.html">Home</a>
+    <a href="Color_blindness.html">Blindness</a>
+    <a href="Types_of_color.html">Color Type</a>
+    <a href="Symptoms.html">Symptoms</a>
+    <a class="active" href="Contact.html">Contact</a>
+    <a href="Group_Member_Information.html">About</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
+</div>
+
+<body>
+    <br>
+    <h1 style="text-align: center;">How color blind see the world?</h1>
+    <br>
+    <br>
+    <center>
+        <video id="myVideo" width="740px" height="520px" controls style="border: 2px solid black;">
+    <source src="img/vid.mp4" type="video/mp4">
+  </video>
+    </center>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

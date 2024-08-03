@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Symptoms</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .Symptoms {
+            text-align: left;
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid black;
+        }
+        
+        img {
+            border: 3px solid rgb(255, 0, 0);
+        }
+    </style>
+</head>
+<html>
+
+<body>
+    <div class="header">
+        <div class="topnav" id="myTopnav">
+            <a  href="Home.html">Home</a>
+            <a href="Color_blindness.html">Blindness</a>
+            <a class="active" href="Types_of_color.html">Color Type</a>
+            <a href="Symptoms.html">Symptoms</a>
+            <a href="Contact.html">Contact</a>
+            <a href="Group_Member_Information.html">About</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        <div class="Symptoms">
+            <h1>Symptoms:</h1>
+
+            <img src="img/Symptoms1.jpg" style="float:right; width: 300px; height:300" <p>You may have a color vision deficiency and not know it.<br> Some people figure out that they or their <br> child has the condition when it causes<br> confusion such
+            as when there are problems differentiating the<br> colors in a traffic light or interpreting color-coded learning materials.</p>
+            <p> People affected by color blindness may not be able to distinguish:</p>
+            <ul>
+                <li>Different shades of red and green</li>
+                <li>Different shades of blue and yellow</li>
+                <li>Any colors</li>
+            </ul>
+            <p>The most common color deficiency is an inability to see some shades of red <br>and green. Often, a person who is red-green or blue-yellow deficient isn't completely<br> insensitive to both colors. Defects can be mild, moderate or severe.</p>
+
+            <h1>When should you see a doctor:</h1>
+            <p>When you notice a change in color vision.</p>
+
+            <h1>How is the diagnosis made?</h1>
+
+            <p>Color discrimination is a personal sign and not an objective one, as it is impossible for anyone to know<br> the way another person distinguishes colours, and therefore it is not possible to rely on the patient’s complaint or the way he describes
+                colours. There are a group<br> of tests that the doctor can rely on to diagnose color blindness</p>
+
+            <h2>Perform an eye examination.</h2>
+
+            <img src="img/Symptoms2.jpg" style="float:right; width: 300px; height:300" <p>Before starting color blindness tests, the doctor must conduct an eye examination<br> to look for poor vision, neurological problems, glaucoma, or other eye problems
+            and ensure the safety of vision and the safety of all parts of the eye.</p>
+
+            <h2>Color blindness test:</h2>
+            <p>The color blindness test is a visual test composed of panels called pseudochromatic panels. These panels contain<br> images colored dotly in one of the colors and within the color a number or symbol embedded in the image. Only a person with
+                normal vision can distinguish<br> color and symbol together, while a color-blind patient may see the number without the color or the color without the number or symbol.
+                <br> It is important for children to be tested before they start school because many early childhood educational subjects involve identifying colours.</p>
+        </div>
+        <script src="script.js"></script>
+
+</body>
+
+</html>

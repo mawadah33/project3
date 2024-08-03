@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Type of Color</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .Color_types {
+            text-align: left;
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid black;
+        }
+        
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+        
+        th,
+        td {
+            background-color: #96D4D4;
+            padding-top: 10px;
+            padding-bottom: 20px;
+            padding-left: 30px;
+            padding-right: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="topnav" id="myTopnav">
+        <a  href="Home.html">Home</a>
+        <a href="Color_blindness.html">Blindness</a>
+        <a href="Types_of_color.html">Color Type</a>
+        <a class="active" href="Symptoms.html">Symptoms</a>
+        <a href="Contact.html">Contact</a>
+        <a href="Group_Member_Information.html">About</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <br>
+    <div class="Color_types">
+        <h1 style="color: rgb(43, 137, 226); text-align: center; text-size-adjust: 150px;">TYPES OF COLOR BLINDNESS</h1>
+        <br>
+        <br>
+        <h2>There are three main types of colo blindness</h2>
+
+        <ul>
+            <li style="font-size: 25px;"><strong>Protanopia :</strong> unable to perceive anay red light (color).</li>
+            <li style="font-size: 25px;"><strong>Deuteranomaly :</strong> the most common type of red-green color vision deficiency.</li>
+            <li style="font-size:25px;"><strong>Tritanopia :</strong> makes colors look less bright.</li>
+        </ul>
+        </ul>
+        <br>
+        <br>
+
+        <table style="width:40%" align="center">
+            <tr>
+                <th>type</th>
+                <th>how the patient sees</th>
+            </tr>
+            <tr>
+                <td>Normal</td>
+                <td><img src="img/Normal.jpg" width="200px" height="110px"></td>
+            </tr>
+            <tr>
+                <td>tritanopia</td>
+                <td><img src="img/tritanopia.jpg" width="200px" height="110px"></td>
+            </tr>
+            <tr>
+                <td>Protanopia</td>
+                <td><img src="img/Protanopia.jpg" width="200px" height="110px"></td>
+            </tr>
+            <tr>
+                <td>Deuteranomaly</td>
+                <td><img src="img/Deuteranomaly.jpg" width="200px" height="110px"></td>
+            </tr>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
